@@ -1,9 +1,18 @@
 import { component } from 'vuets'
 
-export class Hello {
-    msg = 'Hello, world!'
+abstract class HasMsg {
+    msg: string = 'Hello, world!'
+    append(suffix: string) {
+        this.msg += suffix
+    }
+}
+
+export class Hello extends HasMsg {
     activate = 0
     deactivate = 0
+    constructor() {
+        super()
+    }
     static activate(self: Hello) {
         self.activate++
     }
@@ -12,7 +21,7 @@ export class Hello {
         return true
     }
     append(suffix: string) {
-        this.msg += suffix
+        super.append('?' + suffix)
     }
 }
 export default component({
