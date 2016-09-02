@@ -1,4 +1,6 @@
-Typescript-based components with compatibility layer between version 1 and 2 of vue and vue-router
+Typescript-based components with compatibility layer between version [1](https://vuets.github.io/vuets/vue1/) and [2](https://vuets.github.io/vuets/vue2/) of vue and vue-router
+
+[Examples](https://vuets.github.io/vuets/)
 
 ### Component
 ```ts
