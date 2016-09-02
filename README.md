@@ -75,9 +75,8 @@ const config = {
         { path: '*', redirect: '/home' }
     ]
 }
-new Vue(Vue.util.extend(
-    { router: new Router(config) },
-    require('./App.vue'))
+new Vue(
+    Vue.util.extend({ router: new Router(config) }, require('./App.vue'))
 ).$mount('#app')
 ```
 
