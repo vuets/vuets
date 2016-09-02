@@ -1,6 +1,6 @@
 Vue components using typescript 2.0 with compatibility layer between version [1](https://vuets.github.io/vuets/vue1/) and [2](https://vuets.github.io/vuets/vue2/) of vue and vue-router
 
-[Examples](https://vuets.github.io/vuets/)
+[Live Examples](https://vuets.github.io/vuets/) (found in docs/vue1 and docs/vue2)
 
 Unline other integrations, this does not rely on annotations (runtime introspection overhead) but instead encourages keeping it simple and light like writing components in es6/es2015 (WYSIWYG).
 
