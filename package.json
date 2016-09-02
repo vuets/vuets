@@ -5,6 +5,12 @@
   "author": "dyu",
   "main": "lib/index.js",
   "typings": "lib/index",
+  "license": "Apache-2.0",
+  "README": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vuets/vuets.git"
+  },
   "scripts": {
     "build": "tsc"
   },
