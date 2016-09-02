@@ -32,7 +32,6 @@ export default component({
 </div>
 `
 }, Hello, Hello.activate, Hello.deactivate)
-
 ```
 
 ### main.ts (vue 1.0.x)
