@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "es2015",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "declaration": true,
+    "noImplicitAny": false,
+    "preserveConstEnums": false,
+    "emitDecoratorMetadata": false,
+    "experimentalDecorators": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "strictNullChecks": true,
+    "removeComments": false,
+    "outDir": "lib"
+  },
+  "compileOnSave": false,
+  "files": [
+    "src/index.ts"
+  ]
+}
