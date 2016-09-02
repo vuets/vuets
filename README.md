@@ -2,7 +2,7 @@ Vue components using typescript 2.0 with compatibility layer between version [1]
 
 [Live Examples](https://vuets.github.io/vuets/) (found in docs/vue1 and docs/vue2)
 
-Unline other integrations, this does not rely on annotations (runtime introspection overhead) but instead encourages keeping it simple and light like writing components in es6/es2015 (WYSIWYG).
+Unline other integrations, this does not rely on annotations/decorators (runtime introspection overhead) but instead encourages keeping it simple and light like writing components in es6/es2015 (WYSIWYG).
 
 For simple components, one can simple take advantage of this [typescript 2.0 feature](https://github.com/Microsoft/TypeScript/wiki/What's-new-in-TypeScript#specifying-the-type-of-this-for-functions) where you can specify the type of ```this``` for functions.
 
