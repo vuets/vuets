@@ -25,7 +25,7 @@ body {
   font-size: 1.2em;
 }
 .view {
-  transition: opacity .2s ease;
+  transition: opacity .1s ease;
 
   &.fade-enter-active,
   &.fade-leave-active {
