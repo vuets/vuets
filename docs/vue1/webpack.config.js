@@ -10,13 +10,10 @@ module.exports = {
     filename: 'build.js'
   },
   resolve: {
-    extensions: ['', '.js', '.ts'],
+    extensions: ['.js', '.ts'],
     alias: {
       vue: 'vue/dist/vue.js'
     }
-  },
-  resolveLoader: {
-    root: path.join(__dirname, 'node_modules'),
   },
   module: {
     loaders: [
