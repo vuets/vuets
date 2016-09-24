@@ -4,6 +4,26 @@
     <meta charset="utf-8">
     <title>vuets-docs-vue1</title>
     <style>
+    body {
+      color: #333333;
+      font-family: "Helvetica Neue", Verdana;
+    }
+    .nav > a {
+      font-size: 1.2em;
+      margin-right: 0.5em;
+      text-decoration: none;
+      color: #35495E;
+    }
+    .nav > a.active {
+      border-bottom: 1px solid #31A9FA;
+    }
+    .view {
+      transition: opacity .1s ease;
+    }
+    .view.v-enter,
+    .view.v-leave {
+      opacity: 0;
+    }
     div.bottom {
       position: fixed;
       left: 0.5em;
