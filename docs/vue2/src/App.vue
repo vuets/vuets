@@ -16,21 +16,3 @@ export default {
   }
 }
 </script>
-<style lang="less">
-body {
-  color: #333333;
-}
-.nav > a.active {
-  font-weight: bold;
-  font-size: 1.2em;
-}
-.view {
-  transition: opacity .1s ease;
-
-  &.fade-enter-active,
-  &.fade-leave-active {
-    opacity: 0;
-  }
-}
-</style>
-
