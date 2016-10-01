@@ -3,4 +3,5 @@ target
 docs
 .vscode
 sync.sh
+release.sh
 
