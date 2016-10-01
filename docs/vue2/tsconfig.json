@@ -3,7 +3,7 @@
         "target": "es5",
         "module": "es2015",
         "moduleResolution": "node",
-        "noLib": false,
+        "lib": ["dom", "scripthost", "es5", "es2015.promise"],
         "sourceMap": false,
         "declaration": false,
         "noImplicitAny": false,
