@@ -10,7 +10,7 @@
   "dependencies": {
     "vue": "^1.0.27",
     "vue-router": "^0.7.13",
-    "vuets": "^0.9.0"
+    "vuets": "^0.9.1"
   },
   "devDependencies": {
     "@types/vue": "^1.0.29",
