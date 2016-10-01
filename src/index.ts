@@ -3,14 +3,6 @@ import * as Vue from 'vue'
 export const vueVersion = Vue['default']['version'],
     vue2 = vueVersion.charAt(0) === '2'
 
-export interface Vm extends vuejs.Vue {
-
-}
-
-export function vm(self: any): Vm {
-    return <Vm>self
-}
-
 function createFnActivateV1(fnActivate: (vm) => any): () => any {
     return function () {
         return fnActivate(this)
