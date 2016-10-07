@@ -4,13 +4,13 @@ export const vueVersion = Vue['default']['version'],
     vue2 = vueVersion.charAt(0) === '2'
 
 function createFnActivateV1(fnActivate: (vm) => any): () => any {
-    return function () {
+    return function (this: any) {
         return fnActivate(this)
     }
 }
 
 function createFnDeactivateV1(fnDeactivate: (vm) => boolean): () => any {
-    return function () {
+    return function (this: any) {
         return fnDeactivate(this)
     }
 }
@@ -22,7 +22,7 @@ function createFnActivateV2(fnActivate: (vm) => any): (route, redirect, next) =>
 }
 
 function createFnDeactivateV2(fnDeactivate: (vm) => boolean): (route, redirect, next) => any {
-    return function(route, redirect, next) {
+    return function(this: any, route, redirect, next) {
         return fnDeactivate(this) && next()
     }
 }
