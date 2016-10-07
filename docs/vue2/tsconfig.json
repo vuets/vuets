@@ -12,6 +12,7 @@
         "experimentalDecorators": true,
         "suppressImplicitAnyIndexErrors": true,
         "strictNullChecks": true,
+        "noImplicitThis": true,
         "removeComments": true
     },
     "compileOnSave": false,
