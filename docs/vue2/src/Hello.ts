@@ -34,7 +34,7 @@ export default component({
     activate count: {{ activate }}
   </div>
   <div>
-    deaactivate count: {{ deactivate }}
+    deactivate count: {{ deactivate }}
   </div>
 </div>
 `
