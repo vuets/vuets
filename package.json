@@ -15,11 +15,11 @@
     "build": "tsc"
   },
   "devDependencies": {
-    "@types/vue": "^1.0.29",
-    "typescript": "^2.0.0",
-    "vue": "^1.0.26"
+    "@types/vue": "^1.0.31",
+    "typescript": "^2.1.4",
+    "vue": "^1.0.28"
   },
   "peerDependencies": {
-    "vue": "^1.0.26 || ^2.0.0-rc"
+    "vue": "^1.0.28 || ^2.0.0"
   }
 }
