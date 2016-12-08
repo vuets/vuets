@@ -3,6 +3,8 @@ import * as Vue from 'vue'
 export const vueVersion = Vue['default']['version'],
     vue2 = vueVersion.charAt(0) === '2'
 
+const extend = Vue['extend'] || Vue['default']['extend']
+
 function createFnActivateV1(fnActivate: (vm) => any): () => any {
     return function (this: any) {
         return fnActivate(this)
@@ -73,5 +75,5 @@ export function component(opts: any, clazz?: any, fnActivate?: (self) => any, fn
     if (clazz)
         return fillHookOpts(fillOpts(opts || {}, clazz), clazz, fnActivate, fnDeactivate)
     
-    return (cls: any): any => Vue.extend(fillOpts(opts || {}, cls))
+    return (cls: any): any => extend(fillOpts(opts || {}, cls))
 }
