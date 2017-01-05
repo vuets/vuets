@@ -15,8 +15,6 @@ export class Home {
         this.msg += suffix
     }
 }
-// workaround for current vue-router bug 
-// that calls activate before the component is created
 export default component({
     template: `
 <div>
