@@ -1,6 +1,6 @@
 import * as Vue from 'vue'
 
-export const vueVersion = Vue['default']['version'],
+export const vueVersion = Vue['version'] || Vue['default']['version'],
     vue2 = vueVersion.charAt(0) === '2'
 
 const extend = Vue['extend'] || Vue['default']['extend']
