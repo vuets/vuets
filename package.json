@@ -16,7 +16,7 @@
   },
   "devDependencies": {
     "@types/vue": "1.0.31",
-    "typescript": "^2.2.1",
+    "typescript": "^2.2.2",
     "vue": "^1.0.28"
   },
   "peerDependencies": {
