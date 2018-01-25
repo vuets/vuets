@@ -2,6 +2,7 @@ node_modules
 target
 docs
 .vscode
+yarn.lock
 sync.sh
 release.sh
 
