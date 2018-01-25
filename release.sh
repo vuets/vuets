@@ -17,6 +17,6 @@ npm version $VERSION --message "[release] $VERSION"
 
 # publish
 git push origin refs/tags/v$VERSION
-git push
+git push -u origin master
 npm publish
 echo "Released $VERSION"
