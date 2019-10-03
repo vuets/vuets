@@ -1,9 +1,11 @@
-import * as Vue from 'vue'
+import * as vue from 'vue'
 
-export const vueVersion = Vue['version'] || Vue['default']['version'],
+export const Vue = typeof vue === 'function' ? vue : vue['default']
+
+export const vueVersion = Vue['version'],
     vue2 = vueVersion.charAt(0) === '2'
 
-const extend = Vue['extend'] || Vue['default']['extend']
+const extend = Vue['extend']
 
 function createFnActivateV1(fnActivate: (vm) => any): () => any {
     return function (this: any) {
