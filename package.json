@@ -1,6 +1,6 @@
 {
   "name": "vuets",
-  "version": "0.10.0",
+  "version": "1.0.0",
   "description": "typescript-based components with compatibility layer between version 1 and 2 of vue and vue-router",
   "author": "dyu",
   "main": "lib/index.js",
